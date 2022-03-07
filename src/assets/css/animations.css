@@ -1,0 +1,24 @@
+.floating {
+    animation: floating 4s ease-in-out;
+    -webkit-animation: floating 4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.floating-1 {
+    animation: floating 4.1s ease-in-out;
+    -webkit-animation: floating 4.1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); -webkit-transform: translate(0, 15px); -moz-transform: translate(0, 15px); -ms-transform: translate(0, 15px); -o-transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+@media only screen and (max-width: 1024px) {
+    .floating-small-img {
+        display: none;
+    }
+}
