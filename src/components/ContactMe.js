@@ -1,5 +1,5 @@
 import { Box, Button, Grid, Link, Typography, Stack } from "@mui/material";
-import RobotRunning from '../assets/img/Saly-40.png'
+import RobotRunning from '../assets/img/Saly-40.webp'
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';

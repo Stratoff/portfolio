@@ -1,15 +1,9 @@
 
 
 import {Box, Grid, Typography} from '@mui/material'
-import RobotIMGPolite from '../assets/img/Saly-41.png'
+import RobotIMGPolite from '../assets/img/Saly-41.webp'
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
-const about = {
-    borderRadius: "50px",
-    background: "#ECF0F3",
-    boxShadow:  "-30px 30px 60px #c9cccf, 30px -30px 60px #ffffff"
-}
 
 const aboutCloser = {
     borderRadius: "50px",

@@ -1,12 +1,11 @@
 import { Box } from "@mui/material";
-import RobotIMGWithComputer from '../assets/img/Saly-38.png'
-import RobotMeditating from '../assets/img/Saly-39.png'
-import Calculator from '../assets/img/calculator-dynamic-color.png'
-// import Computer from '../assets/img/computer-dynamic-color.png'
-import Minecraft from '../assets/img/minecraft-dynamic-color.png'
-import Puzzle from '../assets/img/puzzle-dynamic-color.png'
-import Rocket from '../assets/img/rocket-dynamic-color.png'
-import Sheild from '../assets/img/sheild-dynamic-color.png'
+import RobotIMGWithComputer from '../assets/img/Saly-38.webp'
+import RobotMeditating from '../assets/img/Saly-39.webp'
+import Calculator from '../assets/img/calculator-dynamic-color-150.png'
+import Minecraft from '../assets/img/minecraft-dynamic-color-150.png'
+import Puzzle from '../assets/img/puzzle-dynamic-color-150.png'
+import Rocket from '../assets/img/rocket-dynamic-color-150.png'
+import Sheild from '../assets/img/sheild-dynamic-color-150.png'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
@@ -20,7 +19,6 @@ export default function BannerImage() {
             <Box position="relative" overflow={"hidden"}>
                 <img alt="" className="floating-1" style={{maxWidth: '100%'}} src={RobotMeditating}/>
                 <RandomImage style={{width: '3.2rem', left: 40, top: 40}} src={Calculator}/>
-                {/* <RandomImage style={{width: '3.2rem', left: 'calc(50% - 1.6rem)', bottom: -10}} src={Sheild}/> */}
                 <RandomImage style={{width: '3.2rem', left: 60, bottom: 100}} src={Minecraft}/>
                 <RandomImage style={{width: '3.2rem', right: 70, bottom: 60}} src={Puzzle}/>
                 <RandomImage style={{width: '3.2rem', right: 40, top: 60 }} src={Rocket}/>
