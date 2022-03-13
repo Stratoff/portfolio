@@ -24,7 +24,8 @@ const skills = [
     {"icon": "git", style: {fill: "#F34F29"}, "verbose": "GIT"},
     {"icon": "wordpress", style: {fill: "#494949"}, "verbose": "WordPress"},
     {"icon": "mongodb", style: {fill: "#4FAA41"}, "verbose": "MongoDB"},
-    {"icon": "php", style: {fill: "#6181B6"}, "verbose": "PHP"}
+    {"icon": "php", style: {fill: "#6181B6"}, "verbose": "PHP"},
+    {"icon": "redis", style: {fill: "#A41E11"}, "verbose": "Redis"}
 ];
 
 
@@ -32,7 +33,7 @@ export default function Skills() {
     return (
         <Box mt={8}>
             <Typography sx={{fontSize: {xs: '2rem', md: '3rem'}}} variant="h3" component={"h2"} marginBottom={4} textAlign={"center"} fontFamily={"'Roboto Slab'"} fontWeight={500}>
-                MY SKILLS
+                STACK
             </Typography>
             <Grid container spacing={3} sx={{px: {xs: 'none', md: '20%'}}} justifyContent="center">
                 {skills.map((skill, i) => (
@@ -88,7 +89,9 @@ export default function Skills() {
                     <Tooltip title={"Material UI"}>
                         <Box sx={{...aboutCloser, width: 50, height: 50, p: 1}} display={"inline-flex"} alignItems={"center"}>
                             <svg viewBox="0 0 128 128">
-                                <path fill="#1FA6CA" d="M.2 68.6V13.4L48 41v18.4L16.1 41v36.8L.2 68.6z"></path><path fill="#1C7FB6" d="M48 41l47.9-27.6v55.3L64 87l-16-9.2 32-18.4V41L48 59.4V41z"></path><path fill="#1FA6CA" d="M48 77.8v18.4l32 18.4V96.2L48 77.8z"></path><path fill="#1C7FB6" d="M80 114.6L127.8 87V50.2l-16 9.2v18.4L80 96.2v18.4zM111.9 41V22.6l16-9.2v18.4l-16 9.2z"></path>
+                                <g>
+                                    <path fill="#1FA6CA" d="M.2 68.6V13.4L48 41v18.4L16.1 41v36.8L.2 68.6z"></path><path fill="#1C7FB6" d="M48 41l47.9-27.6v55.3L64 87l-16-9.2 32-18.4V41L48 59.4V41z"></path><path fill="#1FA6CA" d="M48 77.8v18.4l32 18.4V96.2L48 77.8z"></path><path fill="#1C7FB6" d="M80 114.6L127.8 87V50.2l-16 9.2v18.4L80 96.2v18.4zM111.9 41V22.6l16-9.2v18.4l-16 9.2z"></path>
+                                </g>
                             </svg>
                         </Box>
                     </Tooltip>

@@ -10,11 +10,11 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
 const works = [
-  {"img": GoldenQS, "year": 2019, "done": "I created the whole Front-End inspirated by a previous design made by the client and the Back-End in Wordpress and PHP"},
-  {"img": Ariatel, "year": 2020, "done": "I have worked the last two years as a Full-Stack Developer using technologies like Python, Golang and React"},
-  {"img": MOT, "year": 2022, "done": "I have made some features and the initial layout of the website (Only Front-End and PHP components)"},
-  {"img": specterline, "year": 2020, "done": "I created some template views and components of the dashboard including the styling acording to the Brand Palette"},
-  {"img": TexasDiamondGarage, "year": 2019, "done": "I created the whole Front-end inspirated by a previous design made by the client and some logics with PHP"}
+  {"link": "http://www.goldenqs.com/", "img": GoldenQS, "year": 2019, "done": "I created the whole Front-End inspirated by a previous design made by the client and the Back-End in Wordpress and PHP"},
+  {"link": "https://ariatel.com.co/", "img": Ariatel, "year": 2020, "done": "I have worked the last two years as a Full-Stack Developer using technologies like Python, Golang and React"},
+  {"link": "https://www.m-o-t.com/", "img": MOT, "year": 2022, "done": "I have made some features and the initial layout of the website (Only Front-End and PHP components)"},
+  {"link": "https://www.specterline.com/", "img": specterline, "year": 2020, "done": "I created some template views and components of the dashboard including the styling acording to the Brand Palette"},
+  {"link": "http://texasdiamondgarage.com/", "img": TexasDiamondGarage, "year": 2019, "done": "I created the whole Front-end inspirated by a previous design made by the client and some logics with PHP"}
 ];
 
 function useInterval(callback, delay) {
@@ -90,12 +90,14 @@ export default function MyWork () {
 
 function Slider(props) {
   return (
-    <div
+    <a href={props.link} rel="nofollow" target="_blank"
       style={{
+        textDecoration: 'none',
+        display: "block",
         width: props.width,
         height: props.height,
         ...props.itemStyle,
-        backgroundColor: 'transparent',
+        backgroundColor: '#ECF0F3',
         border: '1px solid #999',
         display: "flex",
         justifyContent: "space-around",
@@ -103,13 +105,14 @@ function Slider(props) {
         alignItems: "center"
       }}
     >
-      <img style={{maxWidth: 150}} src={props.img} alt=""/>
-      <Typography px={3} textAlign={"center"} variant="caption" color="black"  fontFamily={"'Roboto Slab'"}>
-        {props.isSmall ? null : props.done}
-        <Typography textAlign={"center"} fontFamily={"'Roboto Slab'"} color="text.secondary">
-          - {props.year} -
+
+        <img style={{maxWidth: 150}} src={props.img} alt=""/>
+        <Typography px={3} textAlign={"center"} variant="caption" color="black"  fontFamily={"'Roboto Slab'"}>
+          {props.isSmall ? null : props.done}
+          <Typography textAlign={"center"} fontFamily={"'Roboto Slab'"} color="text.secondary">
+            - {props.year} -
+          </Typography>
         </Typography>
-      </Typography>
-    </div>
+    </a>
   );
 }
