@@ -5,7 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
+import CV from '../assets/cv.pdf'
 const about = {
     borderRadius: "10px",
     background: "#ECF0F3",
@@ -27,7 +27,7 @@ export default function ContactMe() {
                         CONTACT ME
                     </Typography>
                     <Typography marginBottom={5} textAlign={"center"} color="gray" variant="caption"  fontFamily={"'Roboto Slab'"}>
-                        Bring your good ideas to my radar and let's make them real!  If you want more information about me you could get <Link href="#" download>my CV here</Link>
+                        Bring your good ideas to my radar and let's make them real!  If you want more information about me you could get <Link href={CV} download>my CV here</Link>
                     </Typography>
 
                     {isMedium ? (

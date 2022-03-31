@@ -1,7 +1,7 @@
 
 import './assets/css/fonts.css';
 import './assets/css/animations.css';
-import {Box, Button, Divider, Grid, Link, Stack, Typography} from '@mui/material'
+import {Box, Button, Grid, Link, Stack, Typography} from '@mui/material'
 import BannerMessage from './components/BannerMessage';
 import BannerImage from './components/BannerImage';
 import AboutMe from './components/AboutMe';
