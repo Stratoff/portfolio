@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7177ce89.css",
-    "main.js": "/portfolio/static/js/main.0334f5ad.js",
+    "main.js": "/portfolio/static/js/main.7d799e6c.js",
     "static/js/787.e8a52378.chunk.js": "/portfolio/static/js/787.e8a52378.chunk.js",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.bf5520d8ba287155acfc.pdf",
     "static/media/Saly-39.webp": "/portfolio/static/media/Saly-39.6a6d5e61cde77c527f03.webp",
     "static/media/Saly-40.webp": "/portfolio/static/media/Saly-40.9f0867888101bfa781d0.webp",
     "static/media/Saly-38.webp": "/portfolio/static/media/Saly-38.c61de142376fc02e7d75.webp",
@@ -17,11 +18,11 @@
     "static/media/ariatel.png": "/portfolio/static/media/ariatel.d26b02344032078446d5.png",
     "index.html": "/portfolio/index.html",
     "main.7177ce89.css.map": "/portfolio/static/css/main.7177ce89.css.map",
-    "main.0334f5ad.js.map": "/portfolio/static/js/main.0334f5ad.js.map",
+    "main.7d799e6c.js.map": "/portfolio/static/js/main.7d799e6c.js.map",
     "787.e8a52378.chunk.js.map": "/portfolio/static/js/787.e8a52378.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7177ce89.css",
-    "static/js/main.0334f5ad.js"
+    "static/js/main.7d799e6c.js"
   ]
 }
