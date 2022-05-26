@@ -31,13 +31,13 @@ export default function AboutMe() {
                             I'm a full-stack developer from Venezuela currently living in Bogota who started to work as a Front-End developer in 2018.
                         </Typography>
                         <Typography sx={{fontSize: {xs: '.8rem', md: '1rem'}}} textAlign={"center"} variant="body2"  fontFamily={"'Roboto Slab'"}>
-                            I love learning new things and take big challenges
+                            I love learning new things and taking big challenges
                         </Typography> 
                     </div>
                 )  : (
                     <div style={{paddingLeft: '30px'}}>
                         <Typography  sx={{fontSize: {xs: '.8rem', md: '1.2rem', lg: '1.8rem'}}} py={1} textAlign={"left"} variant="body1"  fontFamily={"'Roboto Slab'"}>
-                            I'm a full-stack developer from Venezuela currently living in Bogota who started to work as a Front-End developer in 2018.
+                            I'm a full-stack developer from Venezuela currently based in Bogota who started to work as a Front-End developer in 2018.
                         </Typography>
                         <Typography sx={{fontSize: {xs: '.8rem', md: '1.2rem', lg: '1.8rem'}}} textAlign={"left"} variant="body2"  fontFamily={"'Roboto Slab'"}>
                             I love learning new things and take big challenges
