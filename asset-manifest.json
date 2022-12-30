@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7177ce89.css",
-    "main.js": "/portfolio/static/js/main.624cd66a.js",
+    "main.js": "/portfolio/static/js/main.f5a50429.js",
     "static/js/787.e8a52378.chunk.js": "/portfolio/static/js/787.e8a52378.chunk.js",
     "static/media/cv.pdf": "/portfolio/static/media/cv.398a22305cb81d28e200.pdf",
     "static/media/Saly-39.webp": "/portfolio/static/media/Saly-39.6a6d5e61cde77c527f03.webp",
     "static/media/Saly-40.webp": "/portfolio/static/media/Saly-40.9f0867888101bfa781d0.webp",
     "static/media/Saly-38.webp": "/portfolio/static/media/Saly-38.c61de142376fc02e7d75.webp",
     "static/media/Saly-41.webp": "/portfolio/static/media/Saly-41.17a6e4894bfa5ae8f324.webp",
+    "static/media/ccna.pdf": "/portfolio/static/media/ccna.ffd93246ce4046a9abdb.pdf",
+    "static/media/google-html.pdf": "/portfolio/static/media/google-html.dab7d136fe2b331851ff.pdf",
     "static/media/sheild-dynamic-color-150.png": "/portfolio/static/media/sheild-dynamic-color-150.cdf0c4372c96be1c732f.png",
     "static/media/minecraft-dynamic-color-150.png": "/portfolio/static/media/minecraft-dynamic-color-150.1599cafb7cb9b6253ebd.png",
     "static/media/golden-qs.png": "/portfolio/static/media/golden-qs.3f926aca46d0c5b3ca73.png",
@@ -18,11 +20,11 @@
     "static/media/ariatel.png": "/portfolio/static/media/ariatel.d26b02344032078446d5.png",
     "index.html": "/portfolio/index.html",
     "main.7177ce89.css.map": "/portfolio/static/css/main.7177ce89.css.map",
-    "main.624cd66a.js.map": "/portfolio/static/js/main.624cd66a.js.map",
+    "main.f5a50429.js.map": "/portfolio/static/js/main.f5a50429.js.map",
     "787.e8a52378.chunk.js.map": "/portfolio/static/js/787.e8a52378.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7177ce89.css",
-    "static/js/main.624cd66a.js"
+    "static/js/main.f5a50429.js"
   ]
 }
