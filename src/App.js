@@ -10,6 +10,7 @@ import MyWork from './components/MyWork';
 import { Component } from 'react';
 import ContactMe from './components/ContactMe';
 import Credits from './components/Credits';
+import Certs from './components/Certs';
 
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
                 <Skills/>
                 <MyWork/>
                 <ContactMe/>
+                <Certs/>
             </Box>
         );
     }
